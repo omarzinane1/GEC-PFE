@@ -5,13 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './components/connexion/login/login.component';
 import { RegisterComponent } from './components/connexion/register/register.component';
-import { DashboardComponent } from './components/connexion/dashboard/dashboard.component';
+import { SidebarComponent } from './components/hero/sidebar/sidebar.component';
+import { DashboardComponent } from './components/hero/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     RegisterComponent,
+    SidebarComponent,
     DashboardComponent,
 
   ],

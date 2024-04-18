@@ -1,34 +1,33 @@
 import { Component } from '@angular/core';
-import { Title } from '@angular/platform-browser';
 
 @Component({
-  selector: 'app-dashboard',
-  templateUrl: './dashboard.component.html',
-  styleUrls: ['./dashboard.component.css'],
+  selector: 'app-sidebar',
+  templateUrl: './sidebar.component.html',
+  styleUrls: ['./sidebar.component.css'],
 })
-export class DashboardComponent {
+export class SidebarComponent {
   imageUrl: string = 'assets/images/gclogo.png';
 
   Menus = [
     {
-      icon : 'fa-house',
+      icon: 'fa-house',
       title: 'Accueil',
     },
     {
-      icon : 'fa-users',
+      icon: 'fa-users',
       title: 'List Clients',
     },
     {
-      icon : 'fa-money-check-dollar',
+      icon: 'fa-money-check-dollar',
       title: 'List Chéques',
     },
 
     {
-      icon : 'fa-id-card',
+      icon: 'fa-id-card',
       title: 'profile',
     },
     {
-      icon : 'fa-right-from-bracket',
+      icon: 'fa-right-from-bracket',
       title: 'Se déconnecter',
     },
   ];

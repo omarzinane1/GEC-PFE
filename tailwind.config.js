@@ -4,8 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        "dark-purple":"#081A51",
-        'light-white':'rgba(255,255,255,0.18)'
+        'dark-purple':"#081A51",
+        'light-white':'rgba(255,255,255,0.18)',
+        'omar-color':'#6358DC',
+        'omar-color-two' : '#d5d1ff'
       }
     },
   },
